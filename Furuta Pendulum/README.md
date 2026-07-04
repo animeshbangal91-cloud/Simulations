@@ -39,3 +39,25 @@ Since the model follows the paper convention, `theta2 = 180 deg` corresponds to 
 The plot below shows the pendulum error relative to the upright position. The controller drives the error close to zero.
 
 <img width="1150" height="759" alt="Figure_2" src="https://github.com/user-attachments/assets/29c52eb6-fb80-4e51-9e89-679427047cd7" />
+
+## Reference
+
+The nonlinear dynamics used in this project are based on the following research paper:
+
+B. S. Cazzolato and Z. Prime, “On the Dynamics of the Furuta Pendulum,” Journal of Control Science and Engineering, vol. 2011, Article ID 528341, 2011.
+
+DOI: 10.1155/2011/528341
+
+## Future Improvements
+
+- Add an energy-based swing-up controller
+- Switch automatically from swing-up control to PD stabilization near upright
+- Add an LQR controller
+- Compare PD and LQR performance
+- Add motor voltage and current dynamics
+- Add torque limits based on a real DC motor
+- Add Coulomb friction and more realistic damping
+- Add animation of the Furuta pendulum motion
+- Export simulation results to CSV
+- Implement the same simulation in Python
+- Compare MATLAB simulation results with a real Furuta pendulum setup
