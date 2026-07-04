@@ -8,8 +8,6 @@ The project implements the nonlinear equations of motion and applies a **PD/stat
 
 The pendulum is initialized close to the upright position and stabilized using a PD controller.
 
-![Pendulum stabilization result](results/pendulum_stabilization_upright.png)
-
 ## System Convention
 
 The model follows the angle convention used in the reference paper:
@@ -26,7 +24,7 @@ x = [theta1;
      theta2;
      theta1dot;
      theta2dot];
-
+```
 ## Results
 
 ### Raw Angle Response
