@@ -11,5 +11,4 @@ Since the model follows the paper convention, `theta2 = 180 deg` corresponds to 
 
 The plot below shows the pendulum error relative to the upright position. The controller drives the error close to zero.
 
-![Pendulum stabilization around upright]
 <img width="1150" height="759" alt="Figure_2" src="https://github.com/user-attachments/assets/29c52eb6-fb80-4e51-9e89-679427047cd7" />
